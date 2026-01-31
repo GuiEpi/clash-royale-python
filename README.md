@@ -1,8 +1,8 @@
 # Clash Royale Python
 
 <p align="center">
-  <a href="https://github.com/guiepi/clash-royale-python/actions/workflows/ci.yml?query=branch%3Amaster">
-    <img alt="CI Status" src="https://img.shields.io/github/actions/workflow/status/guiepi/clash-royale-python/ci.yml?branch=master&logo=github&style=flat-square">
+  <a href="https://github.com/guiepi/clash-royale-python/actions/workflows/ci.yml?query=branch%3Amain">
+      <img alt="CI Status" src="https://img.shields.io/github/actions/workflow/status/guiepi/clash-royale-python/ci.yml?branch=main&logo=github&style=flat-square">
   </a>
   <a href="https://guiepi.github.io/clash-royale-python/">
     <img src="https://img.shields.io/badge/docs-GitHub%20Pages-blue?style=flat-square&logo=github" alt="Documentation">
