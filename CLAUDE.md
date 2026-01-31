@@ -10,6 +10,7 @@ Synchronous, fully-typed Python wrapper for the Clash Royale API. Built on httpx
 
 ```bash
 uv sync --dev                        # Install dependencies
+uv sync --group docs                 # Install docs dependencies
 uv run pytest                        # Run all tests
 uv run pytest tests/resources/test_clans.py  # Run specific test file
 uv run pytest -k test_get_player     # Run specific test
@@ -17,6 +18,8 @@ uv run ruff check .                  # Lint
 uv run ruff format .                 # Format
 uv run ty check                      # Type check
 uv run pre-commit run -a             # Run all pre-commit hooks
+cd docs && uv run make html          # Build docs
+uv run sphinx-autobuild docs/source docs/build/html  # Docs with live reload
 ```
 
 ## Architecture

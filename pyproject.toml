@@ -41,14 +41,12 @@ dev = [
     "pre-commit>=4.5.1",
     "pytest-recording>=0.13.4",
 ]
-
-[project.optional-dependencies]
 docs = [
     "sphinx>=7.2.0",
     "furo>=2024.1.0",
     "sphinx-autodoc-typehints>=1.25.0",
     "myst-parser>=2.0.0",
-    "sphinx-autobuild[docs]>=2024.10.3",
+    "sphinx-autobuild>=2024.10.3",
     "sphinx-design>=0.5.0",
     "sphinx-llms-txt>=0.1.0",
 ]

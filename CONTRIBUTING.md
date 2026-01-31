@@ -48,7 +48,7 @@ Ready to contribute? Here's how to set up `clash-royale-python` for local develo
 3. Install the dependencies with [uv](https://docs.astral.sh/uv/):
 
    ```shell
-   uv sync --dev --extra docs
+   uv sync --dev --group docs
    ```
 
 4. Create a branch for local development:
@@ -126,7 +126,7 @@ Feel free to open the pull request as soon as possible, but please be explicit i
 The documentation is built with Sphinx. To build it locally:
 
 ```shell
-uv sync --extra docs
+uv sync --group docs
 cd docs
 uv run make html
 ```
