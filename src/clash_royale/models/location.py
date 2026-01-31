@@ -76,17 +76,23 @@ class PlayerSeasonRanking(CRBaseModel):
 
 
 class LeagueSeason(CRBaseModel):
-    """Represents a league season."""
+    """Represents a league season.
 
-    id: str
+    .. note:: The API may return null values due to a known bug.
+    """
+
+    id: str | None = None
 
 
 class LeagueSeasonV2(CRBaseModel):
-    """Represents a league season with end dates."""
+    """Represents a league season with end dates.
 
-    code: str
-    unique_id: str = Field(alias="uniqueId")
-    end_time: str = Field(alias="endTime")
+    .. note:: The API may return null/missing values due to a known bug.
+    """
+
+    code: str | None = None
+    unique_id: str | None = Field(default=None, alias="uniqueId")
+    end_time: str | None = Field(default=None, alias="endTime")
 
 
 class LadderTournamentRanking(CRBaseModel):

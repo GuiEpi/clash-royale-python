@@ -127,12 +127,30 @@ class Locations(Resource):
     def get_season(self, season_id: str) -> LeagueSeason | LeagueSeasonV2:
         """Get top player league season.
 
+        This method automatically selects the appropriate API endpoint based on
+        the ``season_id`` format:
+
+        - **Numeric ID** (e.g., ``"1"``, ``"2"``): Uses the V2 endpoint and returns
+          :class:`~clash_royale.models.leaderboard.LeagueSeasonV2`.
+        - **Date-based code** (e.g., ``"2016-02"``, ``"2025-07"``): Uses the legacy
+          endpoint and returns :class:`~clash_royale.models.leaderboard.LeagueSeason`.
+
+        .. warning:: The Clash Royale API may occasionally return incomplete
+            season data with null values. This is a known API issue, not a
+            library bug.
+
         :param season_id: Identifier of the season. Can be either a numeric unique
             ID (e.g., ``"1"``) or a date-based code (e.g., ``"2016-02"``).
         :return: :class:`~clash_royale.models.leaderboard.LeagueSeasonV2` if
             ``season_id`` is numeric, otherwise
             :class:`~clash_royale.models.leaderboard.LeagueSeason`.
         """
+        warnings.warn(
+            "The API may return incomplete season data with null values.",
+            UserWarning,
+            stacklevel=2,
+        )
+
         if season_id.isdigit():
             response = self._client._request(
                 "GET", f"/locations/global/seasons/{season_id}"
@@ -163,12 +181,13 @@ class Locations(Resource):
     def list_seasons(self) -> PaginatedList[LeagueSeason]:
         """List top player league seasons.
 
-        .. warning:: This endpoint currently returns incomplete data (null IDs).
-            Consider using :meth:`list_seasons_v2` instead.
+        .. warning:: The Clash Royale API may occasionally return incomplete
+            season data with null values. This is a known API issue, not a
+            library bug. Consider using :meth:`list_seasons_v2` instead.
         """
         warnings.warn(
-            "list_seasons() returns incomplete data; use list_seasons_v2() instead.",
-            DeprecationWarning,
+            "The API may return incomplete season data with null values.",
+            UserWarning,
             stacklevel=2,
         )
 
@@ -180,7 +199,18 @@ class Locations(Resource):
         )
 
     def list_seasons_v2(self) -> PaginatedList[LeagueSeasonV2]:
-        """List league seasons with more details."""
+        """List league seasons with more details.
+
+        .. warning:: The Clash Royale API may occasionally return incomplete
+            season data with null values. This is a known API issue, not a
+            library bug.
+        """
+        warnings.warn(
+            "The API may return incomplete season data with null values.",
+            UserWarning,
+            stacklevel=2,
+        )
+
         return PaginatedList(
             client=self._client,
             endpoint="/locations/global/seasonsV2",
