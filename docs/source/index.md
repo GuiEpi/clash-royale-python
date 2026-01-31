@@ -1,4 +1,3 @@
-
 # Clash Royale Python documentation
 
 Clash-Royale-Python: a friendly wrapper around the [Clash Royale API](https://developer.clashroyale.com).
@@ -23,4 +22,11 @@ pagination
 :maxdepth: 3
 
 api_reference/toc
+```
+
+```{toctree}
+:caption: AI
+:maxdepth: 1
+
+ai
 ```

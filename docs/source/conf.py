@@ -33,6 +33,7 @@ extensions = [
     "sphinx.ext.extlinks",
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
+    "sphinx_llms_txt",
 ]
 
 source_suffix = {
@@ -51,6 +52,7 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
+html_baseurl = "https://guiepi.github.io/clash-royale-python/"
 html_theme = "furo"
 html_static_path = ["_static"]
 
@@ -67,7 +69,20 @@ extlinks = {
     )
 }
 
-# Autodoc options
+# -- Options for sphinx-llms-txt ----------------------------------------------
+
+llms_txt_summary = "A synchronous, fully-typed Python library for the Clash Royale API"
+llms_txt_exclude = [
+    "search",
+    "genindex",
+    "py-modindex",
+]
+llms_txt_code_files = [
+    "+:../../src/clash_royale/**/*.py",
+    "-:../../src/clash_royale/__pycache__/**",
+]
+
+# -- Options for autodoc -----------------------------------------------------
 autodoc_member_order = "bysource"
 autodoc_typehints = "signature"
 autodoc_class_signature = "separated"
