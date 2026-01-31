@@ -1,0 +1,56 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      authorization:
+      - DUMMY_API_KEY
+      connection:
+      - keep-alive
+      host:
+      - proxy.royaleapi.dev
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/players/%23NOTFOUND999999/upcomingchests
+  response:
+    body:
+      string: '{"reason":"notFound"}'
+    headers:
+      CF-RAY:
+      - 9c69f9c21a02049e-CDG
+      Cache-Control:
+      - public max-age=600
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 31 Jan 2026 14:42:26 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=jPoUPA6OFbu0U5b8W71YqLH0eXlAPkF747fmXizB6tZUY54mme2D7SHFjFjxMRmnxYJXmgg2zANIHQMQNvaHr%2FbDyVM2glovz1NjuAoPkQNrgHbCWyevXorc55zzXhM%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '21'
+      vary:
+      - accept-encoding
+    status:
+      code: 404
+      message: Not Found
+version: 1

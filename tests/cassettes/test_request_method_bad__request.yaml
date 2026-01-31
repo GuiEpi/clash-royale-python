@@ -1,0 +1,57 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      authorization:
+      - DUMMY_API_KEY
+      connection:
+      - keep-alive
+      host:
+      - proxy.royaleapi.dev
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/tournaments
+  response:
+    body:
+      string: '{"reason":"badRequest","message":"At least one filtering parameter
+        must exist"}'
+    headers:
+      CF-RAY:
+      - 9c69fd227be8d982-CDG
+      Cache-Control:
+      - public max-age=600
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 31 Jan 2026 14:44:44 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=tgUh81cM%2Fap4arzftcEKwwc5U%2BvW9eNVueW8eEqohQ4XexTpkeb%2Bab3V1IgVfTY0kuz3BQgKuwlyH7ss96fKBUIMavgoTbtIb%2F7nuKmDjXeHHoVa1PY4pMbBuYjYpe4%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '79'
+      vary:
+      - accept-encoding
+    status:
+      code: 400
+      message: Bad Request
+version: 1

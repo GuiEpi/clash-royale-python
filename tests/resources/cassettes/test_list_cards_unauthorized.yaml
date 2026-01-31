@@ -1,0 +1,42 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      authorization:
+      - DUMMY_API_KEY
+      connection:
+      - keep-alive
+      host:
+      - api.clashroyale.com
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://api.clashroyale.com/v1/cards
+  response:
+    body:
+      string: '{"reason":"accessDenied","message":"Invalid authorization"}'
+    headers:
+      Cache-Control:
+      - public max-age=600
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 31 Jan 2026 14:42:05 GMT
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      content-length:
+      - '59'
+    status:
+      code: 403
+      message: Forbidden
+version: 1

@@ -1,0 +1,66 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      authorization:
+      - DUMMY_API_KEY
+      connection:
+      - keep-alive
+      host:
+      - proxy.royaleapi.dev
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/locations?limit=10
+  response:
+    body:
+      string: "{\"items\":[{\"id\":57000000,\"name\":\"Europe\",\"isCountry\":false},{\"id\":57000001,\"name\":\"North
+        America\",\"isCountry\":false},{\"id\":57000002,\"name\":\"South America\",\"isCountry\":false},{\"id\":57000003,\"name\":\"Asia\",\"isCountry\":false},{\"id\":57000004,\"name\":\"Oceania\",\"isCountry\":false},{\"id\":57000005,\"name\":\"Africa\",\"isCountry\":false},{\"id\":57000006,\"name\":\"International\",\"isCountry\":false},{\"id\":57000007,\"name\":\"Afghanistan\",\"isCountry\":true,\"countryCode\":\"AF\"},{\"id\":57000008,\"name\":\"\xC5land
+        Islands\",\"isCountry\":true,\"countryCode\":\"AX\"},{\"id\":57000009,\"name\":\"Albania\",\"isCountry\":true,\"countryCode\":\"AL\"}],\"paging\":{\"cursors\":{\"after\":\"eyJwb3MiOjEwfQ\"}}}"
+    headers:
+      Access-Control-Allow-Headers:
+      - DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Azuthorization
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range,Authorization
+      CF-RAY:
+      - 9c69f980490902b9-CDG
+      Cache-Control:
+      - max-age=285
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 31 Jan 2026 14:42:16 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8Caa9pucolN1gpcl3E8EGHygKDgQIlXtk2a31xGa%2FwuM7uPS%2FvESC4LbdubU65NFDJ1ESdbGm1dZpV2Mc5%2BVMaT2xRJxhCFU0wCJ394Gca33KJBJo0gdRgv6ubLpRUM%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '647'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: OK
+version: 1

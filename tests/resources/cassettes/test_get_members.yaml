@@ -1,0 +1,74 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      authorization:
+      - DUMMY_API_KEY
+      connection:
+      - keep-alive
+      host:
+      - proxy.royaleapi.dev
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/clans/%232Q8CCP0/members?limit=10
+  response:
+    body:
+      string: "{\"items\":[{\"tag\":\"#99Q9GJPRQ\",\"name\":\"Blow\",\"role\":\"elder\",\"lastSeen\":\"20260131T140706.000Z\",\"expLevel\":73,\"trophies\":12000,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":1,\"previousClanRank\":1,\"donations\":1086,\"donationsReceived\":520,\"clanChestPoints\":0},{\"tag\":\"#8LVYJVV2\",\"name\":\"Adrien\",\"role\":\"elder\",\"lastSeen\":\"20260131T115301.000Z\",\"expLevel\":68,\"trophies\":11792,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":2,\"previousClanRank\":2,\"donations\":510,\"donationsReceived\":600,\"clanChestPoints\":0},{\"tag\":\"#2G0Y8Y9CP\",\"name\":\"Tangoledozo\",\"role\":\"elder\",\"lastSeen\":\"20260131T141802.000Z\",\"expLevel\":61,\"trophies\":11677,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":3,\"previousClanRank\":4,\"donations\":36,\"donationsReceived\":400,\"clanChestPoints\":0},{\"tag\":\"#80U8V2L9U\",\"name\":\"wal\",\"role\":\"elder\",\"lastSeen\":\"20260131T135321.000Z\",\"expLevel\":75,\"trophies\":11661,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":4,\"previousClanRank\":3,\"donations\":550,\"donationsReceived\":320,\"clanChestPoints\":0},{\"tag\":\"#PJRR8CLQL\",\"name\":\"niro\",\"role\":\"coLeader\",\"lastSeen\":\"20260131T110433.000Z\",\"expLevel\":78,\"trophies\":11652,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":5,\"previousClanRank\":5,\"donations\":372,\"donationsReceived\":360,\"clanChestPoints\":0},{\"tag\":\"#GR2PPPQQ0\",\"name\":\"Rio\u2620\uFE0F\",\"role\":\"member\",\"lastSeen\":\"20260131T111258.000Z\",\"expLevel\":73,\"trophies\":11638,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":6,\"previousClanRank\":0,\"donations\":0,\"donationsReceived\":40,\"clanChestPoints\":0},{\"tag\":\"#CJV9UC88Y\",\"name\":\"Clasheur\",\"role\":\"elder\",\"lastSeen\":\"20260131T072604.000Z\",\"expLevel\":62,\"trophies\":11590,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":7,\"previousClanRank\":6,\"donations\":91,\"donationsReceived\":40,\"clanChestPoints\":0},{\"tag\":\"#YVLYLJ0PU\",\"name\":\"Martinhhr3euyt4\",\"role\":\"elder\",\"lastSeen\":\"20260131T132412.000Z\",\"expLevel\":75,\"trophies\":11588,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":8,\"previousClanRank\":13,\"donations\":225,\"donationsReceived\":240,\"clanChestPoints\":0},{\"tag\":\"#PLL2PQYUR\",\"name\":\"RedHairMonster\",\"role\":\"elder\",\"lastSeen\":\"20260131T140146.000Z\",\"expLevel\":77,\"trophies\":11555,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":9,\"previousClanRank\":8,\"donations\":326,\"donationsReceived\":200,\"clanChestPoints\":0},{\"tag\":\"#LQRP009\",\"name\":\"ruddax82\",\"role\":\"elder\",\"lastSeen\":\"20260131T122126.000Z\",\"expLevel\":68,\"trophies\":11547,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":10,\"previousClanRank\":10,\"donations\":619,\"donationsReceived\":480,\"clanChestPoints\":0}],\"paging\":{\"cursors\":{\"after\":\"eyJwb3MiOjEwfQ\"}}}"
+    headers:
+      Access-Control-Allow-Headers:
+      - DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Azuthorization
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range,Authorization
+      CF-RAY:
+      - 9c69f9569a796f45-CDG
+      Cache-Control:
+      - max-age=120
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 31 Jan 2026 14:42:09 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ow2pF9xTgETkp5QkaG0sleSyIYOGqCAmYa0rqK5Ia4FxhLnDFGvFeuTCjyLVnuT8yop%2Fp%2Bm3HJvBkXk%2Fb5zEhho90zUE0%2BohRtJacjfjw3b%2F8kXnvJajDzKIwbK%2B2bU%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '2910'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,71 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      authorization:
+      - DUMMY_API_KEY
+      connection:
+      - keep-alive
+      host:
+      - proxy.royaleapi.dev
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/leaderboard/170000008?limit=10
+  response:
+    body:
+      string: "{\"items\":[{\"tag\":\"#YQ0GJLR0\",\"name\":\"NairCaos\",\"rank\":1,\"score\":21037,\"clan\":{\"tag\":\"#QVJLUC89\",\"name\":\"FreeSuso\",\"badgeId\":16000035}},{\"tag\":\"#8GLU9V00\",\"name\":\"\u2665ROYALE
+        TFT\u2665\",\"rank\":2,\"score\":19519,\"clan\":{\"tag\":\"#RQ2RPQPY\",\"name\":\"Unemployed\u2122\uFE0F\",\"badgeId\":16000110}},{\"tag\":\"#CQ8VUQCR2\",\"name\":\"WOS.INDONESIA\",\"rank\":3,\"score\":16707,\"clan\":{\"tag\":\"#Q9L9GRUQ\",\"name\":\"Wkwk
+        Of Silent\",\"badgeId\":16000177}},{\"tag\":\"#2PRQQLCU0\",\"name\":\"Nova
+        I Backhus\",\"rank\":4,\"score\":14633,\"clan\":{\"tag\":\"#GPUUPLLJ\",\"name\":\"RoWarlords
+        IV\",\"badgeId\":16000020}},{\"tag\":\"#P0JPL9UL0\",\"name\":\"NotGVersus\",\"rank\":5,\"score\":13561,\"clan\":{\"tag\":\"#GRQPYJPJ\",\"name\":\"Wieczna
+        Wojna\",\"badgeId\":16000004}},{\"tag\":\"#289QUJYLG\",\"name\":\"\u9A87\u5BA2\u2728RezonK\",\"rank\":6,\"score\":13463,\"clan\":{\"tag\":\"#RVCQRUV9\",\"name\":\"France
+        Travail.\",\"badgeId\":16000078}},{\"tag\":\"#C28LJU802\",\"name\":\"LF\u4E28Cormorant\u2764\uFE0FK\",\"rank\":7,\"score\":13294,\"clan\":{\"tag\":\"#YGVU2CPG\",\"name\":\"\u6E05\u98CE\u821E\u6A31\u96EA\uFF0C\u6D45\u51AC\u62B1\u96FE\u6708\",\"badgeId\":16000128}},{\"tag\":\"#CLRC9L8PG\",\"name\":\"Fan
+        Gardieh YT\",\"rank\":8,\"score\":13259},{\"tag\":\"#CQ02LQ29\",\"name\":\"Ajerk\",\"rank\":9,\"score\":13219},{\"tag\":\"#9CQJQYP2\",\"name\":\"Xiake\",\"rank\":10,\"score\":12746,\"clan\":{\"tag\":\"#GLUR220V\",\"name\":\"YTXiake\u8077\u696DMT\u68CB\u9662\",\"badgeId\":16000092}}],\"paging\":{\"cursors\":{\"after\":\"eyJwb3MiOjEwfQ\"}}}"
+    headers:
+      Access-Control-Allow-Headers:
+      - DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Azuthorization
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range,Authorization
+      CF-RAY:
+      - 9c69f970d9362a5b-CDG
+      Cache-Control:
+      - max-age=60
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 31 Jan 2026 14:42:13 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=FhElMM9MO%2FdWNEzF2DD7FMYG7%2B52pohYdFUIQSf9wRAglhVUAKuXH1RxCC9hovSHio5zE%2BRasx5DRsOjbHqacPWlKo3GldrpVD0hoGwz4cKaooA4xGzTqaSMUNLwrsc%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '1298'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: OK
+version: 1
