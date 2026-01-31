@@ -17,6 +17,7 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Typing :: Typed",
 ]
 dependencies = [
@@ -34,12 +35,11 @@ Issues = "https://github.com/guiepi/clash-royale-python/issues"
 dev = [
     "pytest>=9.0.2",
     "pytest-cov>=4.1.0",
-    "pytest-vcr>=1.0.0,<2",
-    "vcrpy>=6.0.0,<7",
     "ty>=0.0.1a0",
     "ruff>=0.1.0",
     "python-dotenv>=1.2.1",
     "pre-commit>=4.5.1",
+    "pytest-recording>=0.13.4",
 ]
 
 [project.optional-dependencies]
@@ -50,6 +50,7 @@ docs = [
     "myst-parser>=2.0.0",
     "sphinx-autobuild[docs]>=2024.10.3",
     "sphinx-design>=0.5.0",
+    "sphinx-llms-txt>=0.1.0",
 ]
 
 [build-system]
