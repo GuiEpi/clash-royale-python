@@ -1,0 +1,74 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - proxy.royaleapi.dev
+      User-Agent:
+      - python-httpx/0.28.1
+      authorization:
+      - DUMMY_API_KEY
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/locations/57000094/pathoflegend/players?limit=10
+  response:
+    body:
+      string: "{\"items\":[{\"tag\":\"#UJU9UUJLC\",\"name\":\"Sosaa\u2728shiimy\u2019\u5B99\u65AF\",\"expLevel\":63,\"eloRating\":3322,\"rank\":1,\"clan\":{\"tag\":\"#GGCU2Y8R\",\"name\":\"Unidos
+        On Fire\",\"badgeId\":16000064}},{\"tag\":\"#J0VU9CGP\",\"name\":\"Dominik\",\"expLevel\":80,\"eloRating\":3314,\"rank\":2,\"clan\":{\"tag\":\"#Q9QPPGGG\",\"name\":\"NoA\",\"badgeId\":16000009}},{\"tag\":\"#UC0QJ2CU9\",\"name\":\"XCOM\u2764\uFE0FHypno\",\"expLevel\":70,\"eloRating\":3238,\"rank\":3,\"clan\":{\"tag\":\"#GRYGUG9V\",\"name\":\"YT
+        : Hypno Cr\",\"badgeId\":16000052}},{\"tag\":\"#L8999VJC\",\"name\":\"CODE:
+        Hypno\",\"expLevel\":80,\"eloRating\":3223,\"rank\":4},{\"tag\":\"#VLL8YQC9G\",\"name\":\"Hypno
+        \u2764\uFE0F Jordan\",\"expLevel\":72,\"eloRating\":3218,\"rank\":5,\"clan\":{\"tag\":\"#GCRJLULL\",\"name\":\"Junkyard\",\"badgeId\":16000160}},{\"tag\":\"#2J9CR89\",\"name\":\"R\u2728Klaus\",\"expLevel\":79,\"eloRating\":3191,\"rank\":6,\"clan\":{\"tag\":\"#GRCULJRR\",\"name\":\"Stille
+        Rache\u2122\uFE0F\",\"badgeId\":16000022}},{\"tag\":\"#PC2RUYYYQ\",\"name\":\"omar\",\"expLevel\":78,\"eloRating\":3186,\"rank\":7,\"clan\":{\"tag\":\"#GGCU2Y8R\",\"name\":\"Unidos
+        On Fire\",\"badgeId\":16000064}},{\"tag\":\"#QQLVULY\",\"name\":\"LelOP\",\"expLevel\":72,\"eloRating\":3179,\"rank\":8,\"clan\":{\"tag\":\"#R909JPG0\",\"name\":\"OP
+        Hustler\",\"badgeId\":16000166}},{\"tag\":\"#208RCR2CC0\",\"name\":\"Hypno
+        \u2764\uFE0F UFUK\",\"expLevel\":65,\"eloRating\":3169,\"rank\":9,\"clan\":{\"tag\":\"#GRYGUG9V\",\"name\":\"YT
+        : Hypno Cr\",\"badgeId\":16000052}},{\"tag\":\"#20Y28UYYGR\",\"name\":\"\u4E4B\u5B89\u795E\u2728RainBoW\",\"expLevel\":59,\"eloRating\":3161,\"rank\":10,\"clan\":{\"tag\":\"#PJJ8GCGR\",\"name\":\"Bad
+        Luck\u2122\uFE0F\",\"badgeId\":16000028}}],\"paging\":{\"cursors\":{\"after\":\"eyJwb3MiOjEwfQ\"}}}"
+    headers:
+      Access-Control-Allow-Headers:
+      - DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Azuthorization
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range,Authorization
+      CF-RAY:
+      - 9c6b52e5bc8c0352-CDG
+      Cache-Control:
+      - max-age=57
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 31 Jan 2026 18:38:03 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=zt8DEgTT4z4sfvM4zYui%2Fu8vYg49GIHIL%2B%2BnLCkaoZn5%2Fl95CbLZks1WJQ1X6xCPHO16D6j86FgTTnr4zRIWFbXq02d96EVU9Uq5w1ZuhahHfsTiZzggp6Dj5r5K9Zc%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '1506'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: OK
+version: 1

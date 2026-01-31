@@ -1,0 +1,70 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - proxy.royaleapi.dev
+      User-Agent:
+      - python-httpx/0.28.1
+      authorization:
+      - DUMMY_API_KEY
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/leaderboards
+  response:
+    body:
+      string: '{"items":[{"id":170000012,"name":"Merge Tactics"},{"id":170000004,"name":"2v2
+        League"},{"id":170000003,"name":"2v2 League"},{"id":170000005,"name":"Retro
+        Royale"},{"id":170000017,"name":"Merge Tactics"},{"id":170000014,"name":"2v2
+        League"},{"id":170000013,"name":"Merge Tactics"},{"id":170000007,"name":"2v2
+        League"},{"id":170000015,"name":"Mega Draft Challenge"},{"id":170000016,"name":"Merge
+        Tactics"},{"id":170000008,"name":"Merge Tactics"},{"id":170000001,"name":"Goblin
+        Queen''s Journey"}]}'
+    headers:
+      Access-Control-Allow-Headers:
+      - DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Azuthorization
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range,Authorization
+      CF-RAY:
+      - 9c6b52bdab056eed-CDG
+      Cache-Control:
+      - max-age=23
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 31 Jan 2026 18:37:57 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=eSjV4Iqo%2Bgh8VYSPWEkcRvPYv%2Fay1FlPfSvjHKXNMOnEc87eM9jT79Jiea%2FBT%2FO%2BqQrBHNqTXO6OhLwOwwbH56uY%2F3%2FTlp2LKpA2wJ9fuOFR4bsoDzK4jYzTV4YRDLw%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '494'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,64 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - proxy.royaleapi.dev
+      User-Agent:
+      - python-httpx/0.28.1
+      authorization:
+      - DUMMY_API_KEY
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/tournaments?name=Test&limit=5
+  response:
+    body:
+      string: '{"items":[],"paging":{"cursors":{}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Azuthorization
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range,Authorization
+      CF-RAY:
+      - 9c6b5321dad0d141-CDG
+      Cache-Control:
+      - max-age=120
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 31 Jan 2026 18:38:13 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XuoO7qUuHC8yJl3Y0ZFXhWLg81fm5pX5wM%2FIhRMKjZUkkackcsrURw1ZSN8xHq6gG%2FS%2BRkloAYni5E%2BqN3KfuH2WhviBqqCnL1JQ7au%2BtIc4b%2FQwDB4jsgMXkDmIqx0%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '36'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: OK
+version: 1

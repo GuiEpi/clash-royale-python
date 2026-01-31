@@ -1,0 +1,56 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - proxy.royaleapi.dev
+      User-Agent:
+      - python-httpx/0.28.1
+      authorization:
+      - DUMMY_API_KEY
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/clans/%23NOTFOUND999999
+  response:
+    body:
+      string: '{"reason":"notFound"}'
+    headers:
+      CF-RAY:
+      - 9c6b529f5b6cd494-CDG
+      Cache-Control:
+      - public max-age=600
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 31 Jan 2026 18:37:52 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2FYYwWfzkDgqwdf1gHq7%2Bqc0e5b4hwlDrXHNYoIm7TCFSxY4OXLvCkUhXB%2FN0UlmM3JFRfR93o3ORMkXeCPj3JMlvJ58k%2BPnPXWPMMhnVSQxZ4Tf7pPsZ1OQbEarMYBU%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '21'
+      vary:
+      - accept-encoding
+    status:
+      code: 404
+      message: Not Found
+version: 1

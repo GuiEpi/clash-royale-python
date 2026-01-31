@@ -1,0 +1,56 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - proxy.royaleapi.dev
+      User-Agent:
+      - python-httpx/0.28.1
+      authorization:
+      - DUMMY_API_KEY
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/locations/99999999
+  response:
+    body:
+      string: '{"reason":"badRequest","message":"Unknown value for parameter locationId"}'
+    headers:
+      CF-RAY:
+      - 9c6b52d8792b6cbe-CDG
+      Cache-Control:
+      - public max-age=600
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 31 Jan 2026 18:38:01 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=x0xVPZsY8T%2BOzYTu1j19dK0y1hsUmLsBENlTsRQHsgdlTbP68ussv7dG9VpSUkz45xmU2PpucfJHD%2BK%2BRno2p7chtIoLsnHMMlUbGn9MdOom%2F4rpcL%2FIZWyao7DW5wQ%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '74'
+      vary:
+      - accept-encoding
+    status:
+      code: 400
+      message: Bad Request
+version: 1
