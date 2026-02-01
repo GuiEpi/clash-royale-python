@@ -188,7 +188,7 @@ client = clash_royale.Client(api_key=os.environ['CLASH_ROYALE_API_KEY'])
 
 If your server does not have a static IP address, you can use a proxy server.
 
-For exemple you can use the proxy solution provided by the [RoyaleAPI team](https://royaleapi.com/) by setting the `proxy` parameter to "https://proxy.royaleapi.dev".
+For exemple you can use the proxy solution provided by the [RoyaleAPI team](https://royaleapi.com/) by setting the `proxy` parameter to `https://proxy.royaleapi.dev`.
 
 ```python
 
