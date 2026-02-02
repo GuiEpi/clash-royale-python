@@ -57,6 +57,3 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/clash_royale"]
-
-[tool.hatch.build.targets.sdist]
-packages = ["src/clash_royale"]
