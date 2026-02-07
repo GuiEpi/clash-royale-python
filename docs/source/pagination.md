@@ -144,8 +144,8 @@ players = client.leaderboards.get(lb_id, limit=50)
 # Use slicing for subsets
 top_10 = players[:10]
 
-# Use fetch() for clarity
-top_50 = client.clans.search(name="Legend").fetch(50)
+# Use slicing for exact counts
+top_50 = client.clans.search(name="Legend", limit=50)[:50]
 
 # Break early in loops
 for player in players:
@@ -185,7 +185,7 @@ The number of API requests is calculated as: `ceil(limit / page_size)`
 Optimize by:
 1. Setting appropriate `limit` values (don't fetch more than you need)
 2. Increasing `page_size` for large bulk operations
-3. Using slicing/`fetch()` to get exact counts
+3. Using slicing to get exact counts
 4. Reusing paginated lists instead of re-fetching
 
 ## Complete Example
@@ -203,7 +203,7 @@ players = client.leaderboards.get(
 )
 
 # Work with top 10
-top_10 = players.fetch(10)
+top_10 = players[:10]
 for i, player in enumerate(top_10, 1):
     print(f"{i}. {player.name} - {player.score} points")
 
