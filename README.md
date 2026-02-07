@@ -38,7 +38,7 @@
 <br />
 
 <div align="center">
-    <strong>A friendly, synchronous, fully-typed Python wrapper around the <a href="https://developer.clashroyale.com">Clash Royale API</a>.</strong>
+    <strong>A friendly, fully-typed Python wrapper around the <a href="https://developer.clashroyale.com">Clash Royale API</a>.</strong>
 </div>
 
 <br />
