@@ -39,7 +39,7 @@ from .resources import (
 )
 from .types import ClanSearchParams, PaginationParams
 
-__version__ = "0.1.2"
+__version__ = "0.2.0"
 
 __all__ = [
     "Arena",
