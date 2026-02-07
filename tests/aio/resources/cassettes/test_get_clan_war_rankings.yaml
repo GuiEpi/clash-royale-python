@@ -1,0 +1,81 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - proxy.royaleapi.dev
+      User-Agent:
+      - python-httpx/0.28.1
+      authorization:
+      - DUMMY_API_KEY
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/locations/57000249/rankings/clanwars?limit=10
+  response:
+    body:
+      string: '{"items":[{"tag":"#9U82JJ0Y","name":"TheAddictedOnes","rank":1,"previousRank":1,"location":{"id":57000249,"name":"United
+        States","isCountry":true,"countryCode":"US"},"clanScore":10335,"members":46,"badgeId":16000139},{"tag":"#V2GQU","name":"Clash
+        of Clams","rank":2,"previousRank":2,"location":{"id":57000249,"name":"United
+        States","isCountry":true,"countryCode":"US"},"clanScore":8804,"members":46,"badgeId":16000139},{"tag":"#Y9202P9U","name":"Galactic
+        Kings","rank":3,"previousRank":3,"location":{"id":57000249,"name":"United
+        States","isCountry":true,"countryCode":"US"},"clanScore":8744,"members":48,"badgeId":16000015},{"tag":"#PPLCV9G2","name":"Elite
+        Forcers","rank":4,"previousRank":4,"location":{"id":57000249,"name":"United
+        States","isCountry":true,"countryCode":"US"},"clanScore":8140,"members":48,"badgeId":16000038},{"tag":"#8R002CU9","name":"Same
+        Ol'' Fig","rank":5,"previousRank":5,"location":{"id":57000249,"name":"United
+        States","isCountry":true,"countryCode":"US"},"clanScore":6775,"members":46,"badgeId":16000107},{"tag":"#YYGV92UQ","name":"AmericanEaglets","rank":6,"previousRank":6,"location":{"id":57000249,"name":"United
+        States","isCountry":true,"countryCode":"US"},"clanScore":6130,"members":40,"badgeId":16000038},{"tag":"#PGY8GY2","name":"High
+        Seekers","rank":7,"previousRank":7,"location":{"id":57000249,"name":"United
+        States","isCountry":true,"countryCode":"US"},"clanScore":6120,"members":34,"badgeId":16000008},{"tag":"#2LCPQV92","name":"Perky
+        Things","rank":8,"previousRank":8,"location":{"id":57000249,"name":"United
+        States","isCountry":true,"countryCode":"US"},"clanScore":5985,"members":47,"badgeId":16000016},{"tag":"#9UV202Q2","name":"CRL
+        eSports PRO","rank":9,"previousRank":9,"location":{"id":57000249,"name":"United
+        States","isCountry":true,"countryCode":"US"},"clanScore":5950,"members":50,"badgeId":16000044},{"tag":"#Y2VCUC92","name":"Wow","rank":10,"previousRank":10,"location":{"id":57000249,"name":"United
+        States","isCountry":true,"countryCode":"US"},"clanScore":5627,"members":49,"badgeId":16000002}],"paging":{"cursors":{"after":"eyJwb3MiOjEwfQ"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Azuthorization
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range,Authorization
+      CF-RAY:
+      - 9c9da82f8c256ec7-CDG
+      Cache-Control:
+      - max-age=60
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 06 Feb 2026 21:14:24 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LMA%2FeWpeEhFtDc7xqrpqu2Bz7zEpg5rDrLQrnHmHCQB8avvQb%2FKRRcQETRbq2%2FRINO8r4fG%2BihDUhm4BRSNqzFyKpLcAH0EFMzI2zlI6HlpZ0Kfl9xkWiwHPbzXQdB0%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '2093'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: OK
+version: 1

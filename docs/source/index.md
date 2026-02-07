@@ -15,6 +15,7 @@ Clash-Royale-Python: a friendly wrapper around the [Clash Royale API](https://de
 installation
 usage
 pagination
+async
 ```
 
 ```{toctree}

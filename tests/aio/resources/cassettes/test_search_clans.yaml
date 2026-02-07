@@ -1,0 +1,128 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - proxy.royaleapi.dev
+      User-Agent:
+      - python-httpx/0.28.1
+      authorization:
+      - DUMMY_API_KEY
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/clans?name=Reddit&limit=5
+  response:
+    body:
+      string: '{"items":[{"tag":"#V0JGPG2","name":"Reddit","type":"inviteOnly","badgeId":16000020,"clanScore":105923,"clanWarTrophies":2021,"location":{"id":57000006,"name":"International","isCountry":false},"requiredTrophies":4300,"donationsPerWeek":5632,"clanChestLevel":1,"clanChestMaxLevel":0,"members":42},{"tag":"#VUPR88","name":"reddit","type":"open","badgeId":16000027,"clanScore":105821,"clanWarTrophies":1660,"location":{"id":57000006,"name":"International","isCountry":false},"requiredTrophies":3000,"donationsPerWeek":3343,"clanChestLevel":1,"clanChestMaxLevel":0,"members":46},{"tag":"#P2PYYJY","name":"Reddit","type":"open","badgeId":16000128,"clanScore":102931,"clanWarTrophies":1583,"location":{"id":57000001,"name":"North
+        America","isCountry":false},"requiredTrophies":6000,"donationsPerWeek":3146,"clanChestLevel":1,"clanChestMaxLevel":0,"members":45},{"tag":"#9VV89GP","name":"Reddit","type":"open","badgeId":16000019,"clanScore":95552,"clanWarTrophies":1810,"location":{"id":57000006,"name":"International","isCountry":false},"requiredTrophies":0,"donationsPerWeek":2300,"clanChestLevel":1,"clanChestMaxLevel":0,"members":42},{"tag":"#Q9RLGPVJ","name":"ReDDit","type":"open","badgeId":16000028,"clanScore":20367,"clanWarTrophies":0,"location":{"id":57000006,"name":"International","isCountry":false},"requiredTrophies":0,"donationsPerWeek":8,"clanChestLevel":1,"clanChestMaxLevel":0,"members":5}],"paging":{"cursors":{"after":"eyJwb3MiOjV9"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Azuthorization
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range,Authorization
+      CF-RAY:
+      - 9c9da7f3dbe09b08-CDG
+      Cache-Control:
+      - max-age=60
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 06 Feb 2026 21:14:15 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=qCyM72x5x237naOv3P6tlNi6svlKSmIqKl%2Bf%2FmBnGvOmjvG33nh5%2BvLlfqCCOIDDxjFXE0QHbsXKZBQDrfO8NhkTTlEv9BDVN9tvIfPpISU881RTM0Hq7aybyIrtaaY%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '1448'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - proxy.royaleapi.dev
+      User-Agent:
+      - python-httpx/0.28.1
+      authorization:
+      - DUMMY_API_KEY
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/clans?name=Legend&minMembers=40&limit=5
+  response:
+    body:
+      string: '{"items":[{"tag":"#2GV8UGYP","name":"Legend","type":"open","badgeId":16000010,"clanScore":101387,"clanWarTrophies":2107,"location":{"id":57000047,"name":"Canada","isCountry":true,"countryCode":"CA"},"requiredTrophies":7000,"donationsPerWeek":3208,"clanChestLevel":1,"clanChestMaxLevel":0,"members":42},{"tag":"#8L8G0JUR","name":"legend","type":"open","badgeId":16000122,"clanScore":87463,"clanWarTrophies":1594,"location":{"id":57000017,"name":"Argentina","isCountry":true,"countryCode":"AR"},"requiredTrophies":3300,"donationsPerWeek":2404,"clanChestLevel":1,"clanChestMaxLevel":0,"members":49},{"tag":"#GPCC8VRP","name":"Legend","type":"open","badgeId":16000003,"clanScore":107739,"clanWarTrophies":2497,"location":{"id":57000249,"name":"United
+        States","isCountry":true,"countryCode":"US"},"requiredTrophies":8000,"donationsPerWeek":7418,"clanChestLevel":1,"clanChestMaxLevel":0,"members":44},{"tag":"#92PC2RC9","name":"legend","type":"open","badgeId":16000128,"clanScore":114965,"clanWarTrophies":2497,"location":{"id":57000122,"name":"Japan","isCountry":true,"countryCode":"JP"},"requiredTrophies":8500,"donationsPerWeek":6951,"clanChestLevel":1,"clanChestMaxLevel":0,"members":50},{"tag":"#QJ8PVQYU","name":"Legend","type":"open","badgeId":16000014,"clanScore":96644,"clanWarTrophies":2078,"location":{"id":57000120,"name":"Italy","isCountry":true,"countryCode":"IT"},"requiredTrophies":5000,"donationsPerWeek":3766,"clanChestLevel":1,"clanChestMaxLevel":0,"members":50}],"paging":{"cursors":{"after":"eyJwb3MiOjV9"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Azuthorization
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range,Authorization
+      CF-RAY:
+      - 9c9da7f72815d120-CDG
+      Cache-Control:
+      - max-age=60
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 06 Feb 2026 21:14:15 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=qsDqmVABLKZxF%2FxZtEf6ouircAje4UXHPD2318%2F20A2s%2BoC6KL1kx3iGuyruIChGqGX0FCESf5jHGeyJGvUkkwnncQCr0VtTk1jVGeiNdV7mpe%2Bse2iWMK6LMfrVgY4%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '1523'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: OK
+version: 1

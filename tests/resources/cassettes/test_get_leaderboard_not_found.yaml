@@ -1,0 +1,56 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - proxy.royaleapi.dev
+      User-Agent:
+      - python-httpx/0.28.1
+      authorization:
+      - DUMMY_API_KEY
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/leaderboard/99999999
+  response:
+    body:
+      string: '{"reason":"unknownException"}'
+    headers:
+      CF-RAY:
+      - 9c9cecd048b702db-CDG
+      Cache-Control:
+      - public max-age=600
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 06 Feb 2026 19:06:30 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=BtjoyR1wJsp3E6MHdRHk7OYUJ3sdz3Y3TLNdZC%2FQrA4J7ubTM9mXovDF1%2BOmgewnpFERJPfZVYGsv7wVnKQHCjup7IS5dOk6aaiovFkRIKUAFO%2FHd6%2B086SH9aQ3VYI%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '29'
+      vary:
+      - accept-encoding
+    status:
+      code: 500
+      message: Internal Server Error
+version: 1

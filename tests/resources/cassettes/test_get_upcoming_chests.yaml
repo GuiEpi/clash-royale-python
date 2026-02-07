@@ -1,0 +1,71 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - proxy.royaleapi.dev
+      User-Agent:
+      - python-httpx/0.28.1
+      authorization:
+      - DUMMY_API_KEY
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/players/%239G9JL8QU/upcomingchests
+  response:
+    body:
+      string: '{"items":[{"index":0,"name":"Gold Crate"},{"index":1,"name":"Golden
+        Chest"},{"index":2,"name":"Golden Chest"},{"index":3,"name":"Tower Troop Chest"},{"index":4,"name":"Overflowing
+        Gold Crate"},{"index":5,"name":"Gold Crate"},{"index":6,"name":"Plentiful
+        Gold Crate"},{"index":7,"name":"Golden Chest"},{"index":8,"name":"Plentiful
+        Gold Crate"},{"index":11,"name":"Giant Chest"},{"index":34,"name":"Royal Wild
+        Chest"},{"index":42,"name":"Legendary Chest"},{"index":69,"name":"Magical
+        Chest"},{"index":132,"name":"Mega Lightning Chest"},{"index":144,"name":"Epic
+        Chest"}]}'
+    headers:
+      Access-Control-Allow-Headers:
+      - DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Azuthorization
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range,Authorization
+      CF-RAY:
+      - 9c9ced136b3c01ce-CDG
+      Cache-Control:
+      - max-age=60
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 06 Feb 2026 19:06:40 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=viRlahG7a%2FuBK%2BDNRibvXSZaBZ7qBVN8nHN4Vlp9ynW80q8PVjKpNDvBDALGtiP619N9fsJ9NsPzly3dn91AKWczo0kG7hHHH0lnr%2F3Ldgj2kA4vnbbULKgeZhFEwww%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '569'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: OK
+version: 1

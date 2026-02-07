@@ -1,0 +1,120 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - proxy.royaleapi.dev
+      User-Agent:
+      - python-httpx/0.28.1
+      authorization:
+      - DUMMY_API_KEY
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/clans/%232Q8CCP0
+  response:
+    body:
+      string: "{\"tag\":\"#2Q8CCP0\",\"name\":\"Adultes Clasher\",\"type\":\"open\",\"description\":\"Recherche
+        joueur actif en GDC \u2694\uFE0F16/16\u2694\uFE0F \U0001F3C6TOP \U0001F1EB\U0001F1F7
+        209\U0001F3C6\",\"badgeId\":16000078,\"clanScore\":114980,\"clanWarTrophies\":4012,\"location\":{\"id\":57000087,\"name\":\"France\",\"isCountry\":true,\"countryCode\":\"FR\"},\"requiredTrophies\":10000,\"donationsPerWeek\":13602,\"clanChestStatus\":\"inactive\",\"clanChestLevel\":1,\"clanChestMaxLevel\":0,\"members\":50,\"memberList\":[{\"tag\":\"#99Q9GJPRQ\",\"name\":\"Blow\",\"role\":\"elder\",\"lastSeen\":\"20260206T202518.000Z\",\"expLevel\":73,\"trophies\":12000,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":1,\"previousClanRank\":2,\"donations\":1045,\"donationsReceived\":520,\"clanChestPoints\":0},{\"tag\":\"#2P9CCRVJ9\",\"name\":\"gros
+        barry\",\"role\":\"member\",\"lastSeen\":\"20260206T105258.000Z\",\"expLevel\":69,\"trophies\":12000,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":2,\"previousClanRank\":1,\"donations\":188,\"donationsReceived\":240,\"clanChestPoints\":0},{\"tag\":\"#8LVYJVV2\",\"name\":\"Adrien\",\"role\":\"elder\",\"lastSeen\":\"20260206T194217.000Z\",\"expLevel\":70,\"trophies\":11859,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":3,\"previousClanRank\":3,\"donations\":442,\"donationsReceived\":520,\"clanChestPoints\":0},{\"tag\":\"#GR2PPPQQ0\",\"name\":\"Rio\u2620\uFE0F\",\"role\":\"member\",\"lastSeen\":\"20260205T210714.000Z\",\"expLevel\":73,\"trophies\":11787,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":4,\"previousClanRank\":5,\"donations\":45,\"donationsReceived\":80,\"clanChestPoints\":0},{\"tag\":\"#80U8V2L9U\",\"name\":\"wal\",\"role\":\"elder\",\"lastSeen\":\"20260206T165123.000Z\",\"expLevel\":76,\"trophies\":11786,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":5,\"previousClanRank\":4,\"donations\":411,\"donationsReceived\":392,\"clanChestPoints\":0},{\"tag\":\"#2LUP92CY0\",\"name\":\"ZOYD\",\"role\":\"coLeader\",\"lastSeen\":\"20260206T161952.000Z\",\"expLevel\":60,\"trophies\":11754,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":6,\"previousClanRank\":6,\"donations\":631,\"donationsReceived\":520,\"clanChestPoints\":0},{\"tag\":\"#PLL2PQYUR\",\"name\":\"RedHairMonster\",\"role\":\"elder\",\"lastSeen\":\"20260206T175533.000Z\",\"expLevel\":77,\"trophies\":11731,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":7,\"previousClanRank\":11,\"donations\":292,\"donationsReceived\":200,\"clanChestPoints\":0},{\"tag\":\"#P8JJYU28R\",\"name\":\"diploraptor\",\"role\":\"elder\",\"lastSeen\":\"20260206T163915.000Z\",\"expLevel\":63,\"trophies\":11710,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":8,\"previousClanRank\":9,\"donations\":8,\"donationsReceived\":320,\"clanChestPoints\":0},{\"tag\":\"#QCCG9RVPP\",\"name\":\"Darkiller\u30E4\",\"role\":\"coLeader\",\"lastSeen\":\"20260206T132050.000Z\",\"expLevel\":59,\"trophies\":11709,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":9,\"previousClanRank\":7,\"donations\":598,\"donationsReceived\":280,\"clanChestPoints\":0},{\"tag\":\"#PJRR8CLQL\",\"name\":\"niro\",\"role\":\"coLeader\",\"lastSeen\":\"20260206T192533.000Z\",\"expLevel\":78,\"trophies\":11682,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":10,\"previousClanRank\":8,\"donations\":463,\"donationsReceived\":520,\"clanChestPoints\":0},{\"tag\":\"#2G0Y8Y9CP\",\"name\":\"Tangoledozo\",\"role\":\"elder\",\"lastSeen\":\"20260206T170449.000Z\",\"expLevel\":61,\"trophies\":11677,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":11,\"previousClanRank\":10,\"donations\":32,\"donationsReceived\":400,\"clanChestPoints\":0},{\"tag\":\"#CJV9UC88Y\",\"name\":\"TONDARONLABBC\",\"role\":\"elder\",\"lastSeen\":\"20260206T170318.000Z\",\"expLevel\":62,\"trophies\":11660,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":12,\"previousClanRank\":12,\"donations\":72,\"donationsReceived\":0,\"clanChestPoints\":0},{\"tag\":\"#LQRP009\",\"name\":\"ruddax82\",\"role\":\"elder\",\"lastSeen\":\"20260206T195321.000Z\",\"expLevel\":68,\"trophies\":11631,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":13,\"previousClanRank\":13,\"donations\":496,\"donationsReceived\":320,\"clanChestPoints\":0},{\"tag\":\"#YVLYLJ0PU\",\"name\":\"Martinhhr3euyt4\",\"role\":\"elder\",\"lastSeen\":\"20260206T210414.000Z\",\"expLevel\":75,\"trophies\":11611,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":14,\"previousClanRank\":14,\"donations\":100,\"donationsReceived\":160,\"clanChestPoints\":0},{\"tag\":\"#Y2JGP9QYG\",\"name\":\"EZYB\",\"role\":\"elder\",\"lastSeen\":\"20260206T175900.000Z\",\"expLevel\":65,\"trophies\":11599,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":15,\"previousClanRank\":15,\"donations\":551,\"donationsReceived\":400,\"clanChestPoints\":0},{\"tag\":\"#L0PPLR8Q\",\"name\":\"kaizer\",\"role\":\"elder\",\"lastSeen\":\"20260206T175108.000Z\",\"expLevel\":74,\"trophies\":11554,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":16,\"previousClanRank\":16,\"donations\":60,\"donationsReceived\":160,\"clanChestPoints\":0},{\"tag\":\"#9LGVCG92\",\"name\":\"Sir
+        PEPITO\",\"role\":\"elder\",\"lastSeen\":\"20260206T190044.000Z\",\"expLevel\":67,\"trophies\":11537,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":17,\"previousClanRank\":17,\"donations\":264,\"donationsReceived\":0,\"clanChestPoints\":0},{\"tag\":\"#2CVUUQLRG\",\"name\":\"mus\",\"role\":\"member\",\"lastSeen\":\"20260205T223130.000Z\",\"expLevel\":62,\"trophies\":11526,\"arena\":{\"id\":54000132,\"name\":\"Summit
+        of Heroes\",\"rawName\":\"Arena_L14\"},\"clanRank\":18,\"previousClanRank\":18,\"donations\":163,\"donationsReceived\":160,\"clanChestPoints\":0},{\"tag\":\"#YVPJ22Y9Y\",\"name\":\"jo\u2744\uFE0F\",\"role\":\"elder\",\"lastSeen\":\"20260206T200408.000Z\",\"expLevel\":62,\"trophies\":11455,\"arena\":{\"id\":54000131,\"name\":\"Musketeer
+        Street\",\"rawName\":\"Arena_L13\"},\"clanRank\":19,\"previousClanRank\":19,\"donations\":104,\"donationsReceived\":80,\"clanChestPoints\":0},{\"tag\":\"#2C8G2PLJR\",\"name\":\"maepapa\",\"role\":\"coLeader\",\"lastSeen\":\"20260206T195952.000Z\",\"expLevel\":76,\"trophies\":11402,\"arena\":{\"id\":54000131,\"name\":\"Musketeer
+        Street\",\"rawName\":\"Arena_L13\"},\"clanRank\":20,\"previousClanRank\":20,\"donations\":298,\"donationsReceived\":360,\"clanChestPoints\":0},{\"tag\":\"#QJCRLCYQJ\",\"name\":\"Dubridge\",\"role\":\"member\",\"lastSeen\":\"20260206T180214.000Z\",\"expLevel\":69,\"trophies\":11312,\"arena\":{\"id\":54000131,\"name\":\"Musketeer
+        Street\",\"rawName\":\"Arena_L13\"},\"clanRank\":21,\"previousClanRank\":23,\"donations\":258,\"donationsReceived\":280,\"clanChestPoints\":0},{\"tag\":\"#PYUGYJR9\",\"name\":\"\u26A1\uFE0F\u26A1\uFE0FT@O\u2728\u2728\",\"role\":\"member\",\"lastSeen\":\"20260206T184306.000Z\",\"expLevel\":76,\"trophies\":11307,\"arena\":{\"id\":54000131,\"name\":\"Musketeer
+        Street\",\"rawName\":\"Arena_L13\"},\"clanRank\":22,\"previousClanRank\":21,\"donations\":81,\"donationsReceived\":80,\"clanChestPoints\":0},{\"tag\":\"#YPRCRY2PG\",\"name\":\"Agnelas\",\"role\":\"elder\",\"lastSeen\":\"20260206T081116.000Z\",\"expLevel\":68,\"trophies\":11299,\"arena\":{\"id\":54000131,\"name\":\"Musketeer
+        Street\",\"rawName\":\"Arena_L13\"},\"clanRank\":23,\"previousClanRank\":22,\"donations\":38,\"donationsReceived\":40,\"clanChestPoints\":0},{\"tag\":\"#289JRRQ9C\",\"name\":\"julomomo\",\"role\":\"elder\",\"lastSeen\":\"20260206T175256.000Z\",\"expLevel\":71,\"trophies\":11207,\"arena\":{\"id\":54000131,\"name\":\"Musketeer
+        Street\",\"rawName\":\"Arena_L13\"},\"clanRank\":24,\"previousClanRank\":26,\"donations\":402,\"donationsReceived\":120,\"clanChestPoints\":0},{\"tag\":\"#2PUQ0VURY\",\"name\":\"aloann\",\"role\":\"coLeader\",\"lastSeen\":\"20260206T182952.000Z\",\"expLevel\":64,\"trophies\":11206,\"arena\":{\"id\":54000131,\"name\":\"Musketeer
+        Street\",\"rawName\":\"Arena_L13\"},\"clanRank\":25,\"previousClanRank\":25,\"donations\":176,\"donationsReceived\":480,\"clanChestPoints\":0},{\"tag\":\"#C2QGVV9YQ\",\"name\":\"Demi-Dure\",\"role\":\"member\",\"lastSeen\":\"20260206T180641.000Z\",\"expLevel\":62,\"trophies\":11191,\"arena\":{\"id\":54000131,\"name\":\"Musketeer
+        Street\",\"rawName\":\"Arena_L13\"},\"clanRank\":26,\"previousClanRank\":24,\"donations\":0,\"donationsReceived\":120,\"clanChestPoints\":0},{\"tag\":\"#289Y009VY\",\"name\":\"penta.x\",\"role\":\"member\",\"lastSeen\":\"20260206T155713.000Z\",\"expLevel\":56,\"trophies\":11186,\"arena\":{\"id\":54000131,\"name\":\"Musketeer
+        Street\",\"rawName\":\"Arena_L13\"},\"clanRank\":27,\"previousClanRank\":0,\"donations\":0,\"donationsReceived\":0,\"clanChestPoints\":0},{\"tag\":\"#9CRR9U2V\",\"name\":\"kiwi\",\"role\":\"coLeader\",\"lastSeen\":\"20260206T194450.000Z\",\"expLevel\":77,\"trophies\":11135,\"arena\":{\"id\":54000131,\"name\":\"Musketeer
+        Street\",\"rawName\":\"Arena_L13\"},\"clanRank\":28,\"previousClanRank\":27,\"donations\":254,\"donationsReceived\":400,\"clanChestPoints\":0},{\"tag\":\"#YPV02VR0\",\"name\":\"Bek2Fois\",\"role\":\"elder\",\"lastSeen\":\"20260206T134804.000Z\",\"expLevel\":70,\"trophies\":11116,\"arena\":{\"id\":54000131,\"name\":\"Musketeer
+        Street\",\"rawName\":\"Arena_L13\"},\"clanRank\":29,\"previousClanRank\":29,\"donations\":48,\"donationsReceived\":320,\"clanChestPoints\":0},{\"tag\":\"#LC8JPYC0C\",\"name\":\"titi\",\"role\":\"member\",\"lastSeen\":\"20260206T210941.000Z\",\"expLevel\":58,\"trophies\":11088,\"arena\":{\"id\":54000131,\"name\":\"Musketeer
+        Street\",\"rawName\":\"Arena_L13\"},\"clanRank\":30,\"previousClanRank\":28,\"donations\":36,\"donationsReceived\":112,\"clanChestPoints\":0},{\"tag\":\"#YRQY2J8VY\",\"name\":\"Ali\",\"role\":\"member\",\"lastSeen\":\"20260206T184738.000Z\",\"expLevel\":76,\"trophies\":11087,\"arena\":{\"id\":54000131,\"name\":\"Musketeer
+        Street\",\"rawName\":\"Arena_L13\"},\"clanRank\":31,\"previousClanRank\":30,\"donations\":415,\"donationsReceived\":360,\"clanChestPoints\":0},{\"tag\":\"#CRRJGC2QG\",\"name\":\"guiguichamp\",\"role\":\"leader\",\"lastSeen\":\"20260206T211314.000Z\",\"expLevel\":64,\"trophies\":11055,\"arena\":{\"id\":54000131,\"name\":\"Musketeer
+        Street\",\"rawName\":\"Arena_L13\"},\"clanRank\":32,\"previousClanRank\":31,\"donations\":1393,\"donationsReceived\":560,\"clanChestPoints\":0},{\"tag\":\"#LGG9UU2C\",\"name\":\"Maz_BZH\",\"role\":\"coLeader\",\"lastSeen\":\"20260206T200907.000Z\",\"expLevel\":76,\"trophies\":11049,\"arena\":{\"id\":54000131,\"name\":\"Musketeer
+        Street\",\"rawName\":\"Arena_L13\"},\"clanRank\":33,\"previousClanRank\":32,\"donations\":499,\"donationsReceived\":400,\"clanChestPoints\":0},{\"tag\":\"#UYQ9YU8VG\",\"name\":\"nael\",\"role\":\"elder\",\"lastSeen\":\"20260206T114249.000Z\",\"expLevel\":60,\"trophies\":11009,\"arena\":{\"id\":54000131,\"name\":\"Musketeer
+        Street\",\"rawName\":\"Arena_L13\"},\"clanRank\":34,\"previousClanRank\":33,\"donations\":73,\"donationsReceived\":120,\"clanChestPoints\":0},{\"tag\":\"#Y9Q0P9GQ2\",\"name\":\"SALADE
+        DE TEUB\",\"role\":\"elder\",\"lastSeen\":\"20260206T200601.000Z\",\"expLevel\":57,\"trophies\":10793,\"arena\":{\"id\":54000130,\"name\":\"Royal
+        Road\",\"rawName\":\"Arena_L12\"},\"clanRank\":35,\"previousClanRank\":34,\"donations\":103,\"donationsReceived\":80,\"clanChestPoints\":0},{\"tag\":\"#CVGQRV2V0\",\"name\":\"let's
+        go\",\"role\":\"elder\",\"lastSeen\":\"20260206T210644.000Z\",\"expLevel\":62,\"trophies\":10759,\"arena\":{\"id\":54000130,\"name\":\"Royal
+        Road\",\"rawName\":\"Arena_L12\"},\"clanRank\":36,\"previousClanRank\":35,\"donations\":345,\"donationsReceived\":400,\"clanChestPoints\":0},{\"tag\":\"#20VPGV0RP\",\"name\":\"Combatiente\",\"role\":\"member\",\"lastSeen\":\"20260206T211337.000Z\",\"expLevel\":73,\"trophies\":10738,\"arena\":{\"id\":54000130,\"name\":\"Royal
+        Road\",\"rawName\":\"Arena_L12\"},\"clanRank\":37,\"previousClanRank\":36,\"donations\":158,\"donationsReceived\":390,\"clanChestPoints\":0},{\"tag\":\"#JUYYC2QCC\",\"name\":\"Aza\",\"role\":\"elder\",\"lastSeen\":\"20260206T154000.000Z\",\"expLevel\":72,\"trophies\":10738,\"arena\":{\"id\":54000130,\"name\":\"Royal
+        Road\",\"rawName\":\"Arena_L12\"},\"clanRank\":38,\"previousClanRank\":37,\"donations\":199,\"donationsReceived\":320,\"clanChestPoints\":0},{\"tag\":\"#CLCLVYL2Q\",\"name\":\"vince720\",\"role\":\"elder\",\"lastSeen\":\"20260205T211246.000Z\",\"expLevel\":70,\"trophies\":10732,\"arena\":{\"id\":54000130,\"name\":\"Royal
+        Road\",\"rawName\":\"Arena_L12\"},\"clanRank\":39,\"previousClanRank\":38,\"donations\":146,\"donationsReceived\":160,\"clanChestPoints\":0},{\"tag\":\"#2PQLCGPRC\",\"name\":\"Chopipo\",\"role\":\"elder\",\"lastSeen\":\"20260206T163109.000Z\",\"expLevel\":68,\"trophies\":10700,\"arena\":{\"id\":54000130,\"name\":\"Royal
+        Road\",\"rawName\":\"Arena_L12\"},\"clanRank\":40,\"previousClanRank\":39,\"donations\":170,\"donationsReceived\":200,\"clanChestPoints\":0},{\"tag\":\"#9G9JL8QU\",\"name\":\"Paye
+        ta miche\",\"role\":\"coLeader\",\"lastSeen\":\"20260206T180057.000Z\",\"expLevel\":60,\"trophies\":10671,\"arena\":{\"id\":54000130,\"name\":\"Royal
+        Road\",\"rawName\":\"Arena_L12\"},\"clanRank\":41,\"previousClanRank\":40,\"donations\":378,\"donationsReceived\":416,\"clanChestPoints\":0},{\"tag\":\"#V0YQJCYLC\",\"name\":\"bjorn\",\"role\":\"elder\",\"lastSeen\":\"20260205T112906.000Z\",\"expLevel\":60,\"trophies\":10555,\"arena\":{\"id\":54000130,\"name\":\"Royal
+        Road\",\"rawName\":\"Arena_L12\"},\"clanRank\":42,\"previousClanRank\":41,\"donations\":38,\"donationsReceived\":0,\"clanChestPoints\":0},{\"tag\":\"#92P9LLUQ\",\"name\":\"Toutoune\",\"role\":\"member\",\"lastSeen\":\"20260206T163015.000Z\",\"expLevel\":58,\"trophies\":10414,\"arena\":{\"id\":54000117,\"name\":\"Lumberlove
+        Cabin\",\"rawName\":\"Arena_L11\"},\"clanRank\":43,\"previousClanRank\":42,\"donations\":1032,\"donationsReceived\":560,\"clanChestPoints\":0},{\"tag\":\"#PGUP0LLCQ\",\"name\":\"pedrotiste\",\"role\":\"member\",\"lastSeen\":\"20260206T165245.000Z\",\"expLevel\":57,\"trophies\":10368,\"arena\":{\"id\":54000117,\"name\":\"Lumberlove
+        Cabin\",\"rawName\":\"Arena_L11\"},\"clanRank\":44,\"previousClanRank\":43,\"donations\":218,\"donationsReceived\":40,\"clanChestPoints\":0},{\"tag\":\"#UQC0QCLP\",\"name\":\"alexandrev\",\"role\":\"elder\",\"lastSeen\":\"20260206T152843.000Z\",\"expLevel\":73,\"trophies\":10267,\"arena\":{\"id\":54000117,\"name\":\"Lumberlove
+        Cabin\",\"rawName\":\"Arena_L11\"},\"clanRank\":45,\"previousClanRank\":45,\"donations\":200,\"donationsReceived\":200,\"clanChestPoints\":0},{\"tag\":\"#8YRP9UG2\",\"name\":\"Franz\",\"role\":\"elder\",\"lastSeen\":\"20260206T185006.000Z\",\"expLevel\":61,\"trophies\":10263,\"arena\":{\"id\":54000117,\"name\":\"Lumberlove
+        Cabin\",\"rawName\":\"Arena_L11\"},\"clanRank\":46,\"previousClanRank\":46,\"donations\":243,\"donationsReceived\":240,\"clanChestPoints\":0},{\"tag\":\"#22PVCLR9\",\"name\":\"Cavel\",\"role\":\"elder\",\"lastSeen\":\"20260206T152247.000Z\",\"expLevel\":59,\"trophies\":10053,\"arena\":{\"id\":54000117,\"name\":\"Lumberlove
+        Cabin\",\"rawName\":\"Arena_L11\"},\"clanRank\":47,\"previousClanRank\":47,\"donations\":30,\"donationsReceived\":520,\"clanChestPoints\":0},{\"tag\":\"#28LLG28U2\",\"name\":\"sand\",\"role\":\"member\",\"lastSeen\":\"20260206T172252.000Z\",\"expLevel\":65,\"trophies\":9238,\"arena\":{\"id\":54000020,\"name\":\"Valkalla\",\"rawName\":\"Arena_L9\"},\"clanRank\":48,\"previousClanRank\":48,\"donations\":57,\"donationsReceived\":400,\"clanChestPoints\":0},{\"tag\":\"#9UR8L00CU\",\"name\":\"Norufale\",\"role\":\"elder\",\"lastSeen\":\"20260206T055931.000Z\",\"expLevel\":40,\"trophies\":7086,\"arena\":{\"id\":54000016,\"name\":\"Dragon
+        Spa\",\"rawName\":\"Arena_L5\"},\"clanRank\":49,\"previousClanRank\":49,\"donations\":90,\"donationsReceived\":80,\"clanChestPoints\":0},{\"tag\":\"#20QC9UYR2G\",\"name\":\"papamae\",\"role\":\"elder\",\"lastSeen\":\"20260206T081931.000Z\",\"expLevel\":30,\"trophies\":3400,\"arena\":{\"id\":54000024,\"name\":\"Electro
+        Valley\",\"rawName\":\"Arena_Electric\"},\"clanRank\":50,\"previousClanRank\":50,\"donations\":0,\"donationsReceived\":120,\"clanChestPoints\":0}]}"
+    headers:
+      Access-Control-Allow-Headers:
+      - DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Azuthorization
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range,Authorization
+      CF-RAY:
+      - 9c9da7e39f1d0175-CDG
+      Cache-Control:
+      - max-age=120
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 06 Feb 2026 21:14:12 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2BfNcXROL9KTysl%2B6XlhvwRSEUA%2F6iuVTlStNWrppx%2FIZe4CzbfmpNa9lpN2ZsgO%2BbUxTNaK3EQUpA8j2AgkMTp23FRHpUOogerZPD4FrFCezhO%2Fyi%2F3nhSABakiL0x8%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '14688'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,42 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - api.clashroyale.com
+      User-Agent:
+      - python-httpx/0.28.1
+      authorization:
+      - DUMMY_API_KEY
+    method: GET
+    uri: https://api.clashroyale.com/v1/players/%239G9JL8QU
+  response:
+    body:
+      string: '{"reason":"accessDenied","message":"Invalid authorization"}'
+    headers:
+      Cache-Control:
+      - public max-age=600
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 06 Feb 2026 19:04:53 GMT
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      content-length:
+      - '59'
+    status:
+      code: 403
+      message: Forbidden
+version: 1

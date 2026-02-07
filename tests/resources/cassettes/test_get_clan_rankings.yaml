@@ -1,0 +1,69 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - proxy.royaleapi.dev
+      User-Agent:
+      - python-httpx/0.28.1
+      authorization:
+      - DUMMY_API_KEY
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/locations/57000000/rankings/clans?limit=10
+  response:
+    body:
+      string: "{\"items\":[{\"tag\":\"#99QQJY9C\",\"name\":\"Balkan Empire\",\"rank\":1,\"previousRank\":1,\"location\":{\"id\":57000000,\"name\":\"Europe\",\"isCountry\":false},\"clanScore\":118574,\"members\":50,\"badgeId\":16000022},{\"tag\":\"#QLCPU0JU\",\"name\":\"joblife\",\"rank\":2,\"previousRank\":2,\"location\":{\"id\":57000000,\"name\":\"Europe\",\"isCountry\":false},\"clanScore\":118462,\"members\":50,\"badgeId\":16000177},{\"tag\":\"#YYP22V9G\",\"name\":\"#global
+        Family\",\"rank\":3,\"previousRank\":6,\"location\":{\"id\":57000000,\"name\":\"Europe\",\"isCountry\":false},\"clanScore\":117736,\"members\":50,\"badgeId\":16000168},{\"tag\":\"#2LJG2QY\",\"name\":\"CLAN
+        OF CLASHES\",\"rank\":4,\"previousRank\":3,\"location\":{\"id\":57000000,\"name\":\"Europe\",\"isCountry\":false},\"clanScore\":117674,\"members\":49,\"badgeId\":16000146},{\"tag\":\"#GCUVPRLR\",\"name\":\"Uchiha\",\"rank\":5,\"previousRank\":5,\"location\":{\"id\":57000000,\"name\":\"Europe\",\"isCountry\":false},\"clanScore\":117527,\"members\":50,\"badgeId\":16000002},{\"tag\":\"#QQP9RCQ0\",\"name\":\"KRAILLING
+        BLOOD\",\"rank\":6,\"previousRank\":7,\"location\":{\"id\":57000000,\"name\":\"Europe\",\"isCountry\":false},\"clanScore\":117400,\"members\":50,\"badgeId\":16000080},{\"tag\":\"#G9LVUL0L\",\"name\":\"Solyn\",\"rank\":7,\"previousRank\":4,\"location\":{\"id\":57000000,\"name\":\"Europe\",\"isCountry\":false},\"clanScore\":117174,\"members\":48,\"badgeId\":16000128},{\"tag\":\"#RC2PRLVJ\",\"name\":\"Joseo
+        PR\",\"rank\":8,\"previousRank\":-1,\"location\":{\"id\":57000000,\"name\":\"Europe\",\"isCountry\":false},\"clanScore\":117085,\"members\":47,\"badgeId\":16000171},{\"tag\":\"#G8QL8UG0\",\"name\":\"\u26A0\uFE0F\",\"rank\":9,\"previousRank\":12,\"location\":{\"id\":57000000,\"name\":\"Europe\",\"isCountry\":false},\"clanScore\":116894,\"members\":49,\"badgeId\":16000001},{\"tag\":\"#LJJRGC2L\",\"name\":\"Black
+        Requiem\",\"rank\":10,\"previousRank\":9,\"location\":{\"id\":57000000,\"name\":\"Europe\",\"isCountry\":false},\"clanScore\":116853,\"members\":50,\"badgeId\":16000139}],\"paging\":{\"cursors\":{\"after\":\"eyJwb3MiOjEwfQ\"}}}"
+    headers:
+      Access-Control-Allow-Headers:
+      - DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Azuthorization
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range,Authorization
+      CF-RAY:
+      - 9c9cecdf19add10c-CDG
+      Cache-Control:
+      - max-age=60
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 06 Feb 2026 19:06:32 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=3%2BVhdp%2BoYlrCNhvQSYt4y50gxfx1gnJgm7VWSRk9kQlzW%2FhSE4VKHZSVWtBUmGsiE6viqAXmzt21a220GuWm8noHl%2FpYTxcrCHgrs4VplAO5XGpT1cu6rfDUJoisak0%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '1843'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: OK
+version: 1

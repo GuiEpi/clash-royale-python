@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Synchronous, fully-typed Python wrapper for the Clash Royale API. Built on httpx + Pydantic v2. Requires Python >=3.12.
+Synchronous and asynchronous, fully-typed Python wrapper for the Clash Royale API. Built on httpx + Pydantic v2. Requires Python >=3.12.
 
 ## Commands
 
@@ -34,9 +34,11 @@ uv run sphinx-autobuild docs/source docs/build/html  # Docs with live reload
 
 **Exceptions** (`exceptions.py`): `ClashRoyaleHTTPError` with subclasses for 400, 403, 404, 429, 5xx. `InvalidAPIKeyError` raised by `CRAuth` on empty key.
 
+**Async client** (`aio/`): Mirrors the sync API using `async`/`await`. `aio.Client` subclasses `httpx.AsyncClient`. `aio.PaginatedList` replaces magic methods with explicit async methods (`all()`, `get()`, `slice()`, `first()`). Models, exceptions, and types are shared with the sync client.
+
 ## Testing
 
-Tests use `@pytest.mark.vcr()` with pre-recorded HTTP cassettes (no real API calls). Cassettes live in `tests/cassettes/` and `tests/resources/cassettes/`. VCR config is in `tests/conftest.py` — matches on method, scheme, host, port, path, query; filters out Authorization header.
+Tests use `@pytest.mark.vcr()` with pre-recorded HTTP cassettes (no real API calls). Cassettes live in `tests/cassettes/` and `tests/resources/cassettes/`. VCR config is in `tests/conftest.py` — matches on method, scheme, host, port, path, query; filters out Authorization header. Async tests (`tests/aio/`) reuse the same cassettes via `vcr_cassette_dir` fixture overrides and use `pytest-asyncio` with `asyncio_mode = "auto"`.
 
 ## Commit Convention
 

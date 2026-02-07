@@ -1,0 +1,72 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - proxy.royaleapi.dev
+      User-Agent:
+      - python-httpx/0.28.1
+      authorization:
+      - DUMMY_API_KEY
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/locations/57000094/pathoflegend/players?limit=10
+  response:
+    body:
+      string: "{\"items\":[{\"tag\":\"#2J9CR89\",\"name\":\"R\u2728Klaus\",\"expLevel\":80,\"eloRating\":2190,\"rank\":1,\"clan\":{\"tag\":\"#GRCULJRR\",\"name\":\"Stille
+        Rache\u2122\uFE0F\",\"badgeId\":16000022}},{\"tag\":\"#CPLGLPU80\",\"name\":\"Sosaa\u2764whit3\",\"expLevel\":69,\"eloRating\":2126,\"rank\":2,\"clan\":{\"tag\":\"#J9VGU9CC\",\"name\":\"Sovereign\",\"badgeId\":16000133}},{\"tag\":\"#L8999VJC\",\"name\":\"CODE:
+        Hypno\",\"expLevel\":80,\"eloRating\":2098,\"rank\":3},{\"tag\":\"#R09228V\",\"name\":\"SK
+        Morten\",\"expLevel\":86,\"eloRating\":2049,\"rank\":4,\"clan\":{\"tag\":\"#G2PQYU8J\",\"name\":\"sahnenmann\",\"badgeId\":16000139}},{\"tag\":\"#UJU9UUJLC\",\"name\":\"Sosaa\u2728shiimy\u2019\u5B99\u65AF\",\"expLevel\":64,\"eloRating\":2032,\"rank\":5,\"clan\":{\"tag\":\"#J9VGU9CC\",\"name\":\"Sovereign\",\"badgeId\":16000133}},{\"tag\":\"#Y9Y0V9VQG\",\"name\":\"TT
+        Till CR\",\"expLevel\":76,\"eloRating\":2022,\"rank\":6,\"clan\":{\"tag\":\"#RVJU9L8V\",\"name\":\"\xD6ler\",\"badgeId\":16000168}},{\"tag\":\"#J0VU9CGP\",\"name\":\"Dominik\",\"expLevel\":80,\"eloRating\":2014,\"rank\":7},{\"tag\":\"#2LQ2YP98\",\"name\":\"SK
+        xopxsam\",\"expLevel\":86,\"eloRating\":2000,\"rank\":8,\"clan\":{\"tag\":\"#G2Q02Y8G\",\"name\":\"Familie
+        Rehwald\",\"badgeId\":16000035}},{\"tag\":\"#UC0QJ2CU9\",\"name\":\"XCOM\u2764\uFE0FHypno\",\"expLevel\":70,\"eloRating\":1984,\"rank\":9,\"clan\":{\"tag\":\"#GRYGUG9V\",\"name\":\"YT
+        : Hypno Cr\",\"badgeId\":16000052}},{\"tag\":\"#CJ8J8V2JL\",\"name\":\"Noah\u2764\uFE0Figlo\",\"expLevel\":69,\"eloRating\":1978,\"rank\":10,\"clan\":{\"tag\":\"#GRCULJRR\",\"name\":\"Stille
+        Rache\u2122\uFE0F\",\"badgeId\":16000022}}],\"paging\":{\"cursors\":{\"after\":\"eyJwb3MiOjEwfQ\"}}}"
+    headers:
+      Access-Control-Allow-Headers:
+      - DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Azuthorization
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range,Authorization
+      CF-RAY:
+      - 9c9cece97db7005a-CDG
+      Cache-Control:
+      - max-age=23
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 06 Feb 2026 19:06:34 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=co5Ool6Dy1QC3Gi3ZBR5%2FLSp5FrQIX2SwMgFu1Lz9RKR4mfr%2FGfwGuEGrcSCQLyME7H9TRq%2Fnc%2Beczef9lATul1LAvPgEAilWV66%2Bbe5b3WF9EHLrLIfhUVn9fNuqlw%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '1429'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: OK
+version: 1

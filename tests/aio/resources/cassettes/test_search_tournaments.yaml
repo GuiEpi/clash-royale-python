@@ -1,0 +1,64 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - proxy.royaleapi.dev
+      User-Agent:
+      - python-httpx/0.28.1
+      authorization:
+      - DUMMY_API_KEY
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/tournaments?name=Test&limit=5
+  response:
+    body:
+      string: '{"items":[{"tag":"#2G92R98P","type":"passwordProtected","status":"inProgress","creatorTag":"#2YL082VPP","name":"Test","levelCap":11,"firstPlaceCardPrize":0,"capacity":2,"maxCapacity":100,"preparationDuration":3600,"duration":14400,"createdTime":"20260206T182815.000Z","gameMode":{"id":72000009}}],"paging":{"cursors":{}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Azuthorization
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range,Authorization
+      CF-RAY:
+      - 9c9da86b8bf8d161-CDG
+      Cache-Control:
+      - max-age=120
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 06 Feb 2026 21:14:34 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=z0wjZ6kQ8UfCV52r400cWNwSO2ogvv5xz6ATR8ZGeCsFFwd478XmCR9jhz6NXRSJLd1RzKwUtyu8L%2FL%2FGYPGt8bMaplvEC4MHsV6hhuBWZjJG0hTqUMpCHFXfcwaDh8%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '321'
+      vary:
+      - accept-encoding
+    status:
+      code: 200
+      message: OK
+version: 1

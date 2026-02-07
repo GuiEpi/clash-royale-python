@@ -1,0 +1,56 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - proxy.royaleapi.dev
+      User-Agent:
+      - python-httpx/0.28.1
+      authorization:
+      - DUMMY_API_KEY
+    method: GET
+    uri: https://proxy.royaleapi.dev/v1/players/invalid_tag_format
+  response:
+    body:
+      string: '{"reason":"notFound","message":"Not found with tag invalid_tag_format"}'
+    headers:
+      CF-RAY:
+      - 9c9ced2fbccfc2cf-CDG
+      Cache-Control:
+      - public max-age=600
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 06 Feb 2026 19:06:45 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ENC9ROJJ%2FzSHvD8hLDUb6w6ksRchDsoQTAN0TkVo6u0kW%2Fy78zJz6hqa25xfo4Cr7f7%2BfbNUfTuVnJE3dE1cbNROUYn2N5wrFbXxqsxjekG7BWMvLaFjG7pSX0YgGxM%3D"}]}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=43200
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '71'
+      vary:
+      - accept-encoding
+    status:
+      code: 404
+      message: Not Found
+version: 1
