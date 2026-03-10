@@ -19,6 +19,8 @@ class Card(CRBaseModel):
     )  # elxir_cost may be `None` due to the "mirror" card
     icon_urls: Icon = Field(alias="iconUrls")
     rarity: Literal["common", "rare", "epic", "legendary", "champion"]
+    star_level: int | None = Field(default=None, alias="starLevel")
+    evolution_level: int | None = Field(default=None, alias="evolutionLevel")
 
 
 class SupportCard(CRBaseModel):
